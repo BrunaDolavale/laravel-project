@@ -73,12 +73,6 @@
     </ul>
     <ul class="nav navbar-nav navbar-right" id="link-white">
       <li class="dropdown">
-        <a href="#" style="text-decoration: none">
-          <img src="{{URL::asset('img/rafael.png')}}" 
-          class="img-circle" width="26" height="26" 
-          style="margin-top: -3px"> 
-          <span id="underline">Rafael Calearo</span> 
-        </a>                      
       </li>
       <li><a href="#" 
        style="text-decoration: none">
