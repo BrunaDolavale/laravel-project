@@ -107,7 +107,7 @@
       <h4 id="center"><b>ALTERAÇÃO DOS DADOS DO DOCENTE</b></h4>
       <br> 
       <form method="post" 
-      action="{{route('docente.update', $docente->id)}}" 
+      action="{{route('docente.update', $docente->nome)}}" 
       enctype="multipart/form-data">
       {!! method_field('put') !!}
       {{ csrf_field() }}
