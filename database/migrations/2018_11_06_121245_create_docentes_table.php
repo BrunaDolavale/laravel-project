@@ -15,7 +15,7 @@ class CreateDocentesTable extends Migration
     {
         Schema::create('docentes', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 30);
+            $table->string('nome', 30);
             $table->string('nivel', 20);
             $table->timestamps();
             $table->softDeletes();
